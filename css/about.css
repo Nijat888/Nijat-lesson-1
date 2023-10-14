@@ -1,0 +1,29 @@
+.Main {
+    width: 500px;
+    height: 500px;
+    float: left;
+    background: grey;
+    gap: 10px;
+    display: grid;
+}
+
+.item1 {
+    width: 100px;
+    height: 150px;
+    float: left;
+    background: yellow;
+}
+
+.item2 {
+    width: 100px;
+    height: 150px;
+    float: left;
+    background: rgb(32, 27, 63);
+}
+
+.item3 {
+    width: 100px;
+    height: 150px;
+    float: left;
+    background: red;
+}

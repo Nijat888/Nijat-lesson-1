@@ -1,0 +1,101 @@
+
+/* *{
+   margin: 0px;
+}
+
+.marg{
+    margin: 16px 16px!important;
+    display: inline-block;
+} */
+*{
+    margin: 0 auto;
+}
+.kv1, .kv2, .kv3{
+    width: 150px;
+    height: 150px;
+    float: left;
+    font-size: 30px;
+    color: white;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.kv1{
+    background: red;
+}
+
+.kv2{
+    background: blue;
+    margin-top:-140px;
+    transition: 0.5s;
+
+    /* margin-left: 15px;
+    margin-right: 25px;
+    margin-top: 35px;
+    margin-bottom: 45px; */
+
+    /* margin: 15px; */
+    /* margin: 10px 30px; */
+    /* margin: 10px 30px 50px; */
+    /* margin: 10px 30px 50px 70px; */
+
+   
+    /* ==================================== */
+    
+    /* padding-left: 15px;
+    padding-right: 25px;
+    padding-top: 35px;
+    padding-bottom: 45px; */
+
+    /* padding: 20px; */
+    /* padding: 10px 30px; */
+    /* padding: 10px 30px 50px; */
+    /* padding: 10px 30px 50px; */
+    /* padding: 10px 30px 50px 70px; */
+
+    /* box-sizing: border-box; */
+
+}
+
+.kv2:hover{
+    margin-top:0px ;
+}
+
+.kv3{
+    background: green;
+    /* margin-left: 25px; */
+}
+
+#home{
+    width: 100%;
+    /* width: calc(100% - 200px); */
+    min-height: 300px;
+    
+    background: lightblue;
+    background-image: url('https://blog.playstation.com/tachyon/2022/06/0c3c20a8d8514501524a0859461f391572ea6e61.jpg?resize=1088%2C612&crop_strategy=smart');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+
+
+    float: left;
+    padding: 70px 20px;
+    text-align: justify;
+    box-sizing:border-box;
+    
+}
+#home img{
+    object-fit: cover;
+    object-position: top;
+}
+#about{
+    width: 100%;
+    min-height: 300px;
+    background: rgb(209, 155, 28);
+    float: left;
+    padding: 70px 20px;
+    box-sizing: border-box;
+}
